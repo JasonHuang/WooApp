@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		00195A732B4A8A550035B706 /* WooAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00195A722B4A8A550035B706 /* WooAppApp.swift */; };
-		00195A752B4A8A550035B706 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00195A742B4A8A550035B706 /* ContentView.swift */; };
 		00195A772B4A8A560035B706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00195A762B4A8A560035B706 /* Assets.xcassets */; };
 		00195A7A2B4A8A560035B706 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00195A792B4A8A560035B706 /* Preview Assets.xcassets */; };
 		00195A842B4A8A560035B706 /* WooAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00195A832B4A8A560035B706 /* WooAppTests.swift */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		00195A6F2B4A8A550035B706 /* WooApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WooApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00195A722B4A8A550035B706 /* WooAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooAppApp.swift; sourceTree = "<group>"; };
-		00195A742B4A8A550035B706 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		00195A762B4A8A560035B706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00195A792B4A8A560035B706 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		00195A7F2B4A8A560035B706 /* WooAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WooAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				00195A722B4A8A550035B706 /* WooAppApp.swift */,
-				00195A742B4A8A550035B706 /* ContentView.swift */,
 				002D49402BAC158D0069B778 /* HomePageView.swift */,
 				002D49422BAC199D0069B778 /* ProductDetailView.swift */,
 				00195A762B4A8A560035B706 /* Assets.xcassets */,
@@ -263,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00195A752B4A8A550035B706 /* ContentView.swift in Sources */,
 				002D49432BAC199D0069B778 /* ProductDetailView.swift in Sources */,
 				002D49412BAC158D0069B778 /* HomePageView.swift in Sources */,
 				00195A732B4A8A550035B706 /* WooAppApp.swift in Sources */,
