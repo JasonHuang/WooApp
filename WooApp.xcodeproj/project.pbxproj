@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00195A732B4A8A550035B706 /* WooAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00195A722B4A8A550035B706 /* WooAppApp.swift */; };
+		00195A752B4A8A550035B706 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00195A742B4A8A550035B706 /* ContentView.swift */; };
+		00195A772B4A8A560035B706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00195A762B4A8A560035B706 /* Assets.xcassets */; };
+		00195A7A2B4A8A560035B706 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00195A792B4A8A560035B706 /* Preview Assets.xcassets */; };
+		00195A842B4A8A560035B706 /* WooAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00195A832B4A8A560035B706 /* WooAppTests.swift */; };
+		00195A8E2B4A8A560035B706 /* WooAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00195A8D2B4A8A560035B706 /* WooAppUITests.swift */; };
+		00195A902B4A8A560035B706 /* WooAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00195A8F2B4A8A560035B706 /* WooAppUITestsLaunchTests.swift */; };
+		002D49412BAC158D0069B778 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D49402BAC158D0069B778 /* HomePageView.swift */; };
+		002D49432BAC199D0069B778 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D49422BAC199D0069B778 /* ProductDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00195A802B4A8A560035B706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00195A672B4A8A550035B706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00195A6E2B4A8A550035B706;
+			remoteInfo = WooApp;
+		};
+		00195A8A2B4A8A560035B706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00195A672B4A8A550035B706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00195A6E2B4A8A550035B706;
+			remoteInfo = WooApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00195A6F2B4A8A550035B706 /* WooApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WooApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00195A722B4A8A550035B706 /* WooAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooAppApp.swift; sourceTree = "<group>"; };
+		00195A742B4A8A550035B706 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00195A762B4A8A560035B706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00195A792B4A8A560035B706 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00195A7F2B4A8A560035B706 /* WooAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WooAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00195A832B4A8A560035B706 /* WooAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooAppTests.swift; sourceTree = "<group>"; };
+		00195A892B4A8A560035B706 /* WooAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WooAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00195A8D2B4A8A560035B706 /* WooAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooAppUITests.swift; sourceTree = "<group>"; };
+		00195A8F2B4A8A560035B706 /* WooAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		002D49402BAC158D0069B778 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		002D49422BAC199D0069B778 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00195A6C2B4A8A550035B706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00195A7C2B4A8A560035B706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00195A862B4A8A560035B706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00195A662B4A8A550035B706 = {
+			isa = PBXGroup;
+			children = (
+				00195A712B4A8A550035B706 /* WooApp */,
+				00195A822B4A8A560035B706 /* WooAppTests */,
+				00195A8C2B4A8A560035B706 /* WooAppUITests */,
+				00195A702B4A8A550035B706 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00195A702B4A8A550035B706 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00195A6F2B4A8A550035B706 /* WooApp.app */,
+				00195A7F2B4A8A560035B706 /* WooAppTests.xctest */,
+				00195A892B4A8A560035B706 /* WooAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00195A712B4A8A550035B706 /* WooApp */ = {
+			isa = PBXGroup;
+			children = (
+				00195A722B4A8A550035B706 /* WooAppApp.swift */,
+				00195A742B4A8A550035B706 /* ContentView.swift */,
+				002D49402BAC158D0069B778 /* HomePageView.swift */,
+				002D49422BAC199D0069B778 /* ProductDetailView.swift */,
+				00195A762B4A8A560035B706 /* Assets.xcassets */,
+				00195A782B4A8A560035B706 /* Preview Content */,
+			);
+			path = WooApp;
+			sourceTree = "<group>";
+		};
+		00195A782B4A8A560035B706 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				00195A792B4A8A560035B706 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00195A822B4A8A560035B706 /* WooAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00195A832B4A8A560035B706 /* WooAppTests.swift */,
+			);
+			path = WooAppTests;
+			sourceTree = "<group>";
+		};
+		00195A8C2B4A8A560035B706 /* WooAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00195A8D2B4A8A560035B706 /* WooAppUITests.swift */,
+				00195A8F2B4A8A560035B706 /* WooAppUITestsLaunchTests.swift */,
+			);
+			path = WooAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00195A6E2B4A8A550035B706 /* WooApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00195A932B4A8A560035B706 /* Build configuration list for PBXNativeTarget "WooApp" */;
+			buildPhases = (
+				00195A6B2B4A8A550035B706 /* Sources */,
+				00195A6C2B4A8A550035B706 /* Frameworks */,
+				00195A6D2B4A8A550035B706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WooApp;
+			productName = WooApp;
+			productReference = 00195A6F2B4A8A550035B706 /* WooApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00195A7E2B4A8A560035B706 /* WooAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00195A962B4A8A560035B706 /* Build configuration list for PBXNativeTarget "WooAppTests" */;
+			buildPhases = (
+				00195A7B2B4A8A560035B706 /* Sources */,
+				00195A7C2B4A8A560035B706 /* Frameworks */,
+				00195A7D2B4A8A560035B706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00195A812B4A8A560035B706 /* PBXTargetDependency */,
+			);
+			name = WooAppTests;
+			productName = WooAppTests;
+			productReference = 00195A7F2B4A8A560035B706 /* WooAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00195A882B4A8A560035B706 /* WooAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00195A992B4A8A560035B706 /* Build configuration list for PBXNativeTarget "WooAppUITests" */;
+			buildPhases = (
+				00195A852B4A8A560035B706 /* Sources */,
+				00195A862B4A8A560035B706 /* Frameworks */,
+				00195A872B4A8A560035B706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00195A8B2B4A8A560035B706 /* PBXTargetDependency */,
+			);
+			name = WooAppUITests;
+			productName = WooAppUITests;
+			productReference = 00195A892B4A8A560035B706 /* WooAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00195A672B4A8A550035B706 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					00195A6E2B4A8A550035B706 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					00195A7E2B4A8A560035B706 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 00195A6E2B4A8A550035B706;
+					};
+					00195A882B4A8A560035B706 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 00195A6E2B4A8A550035B706;
+					};
+				};
+			};
+			buildConfigurationList = 00195A6A2B4A8A550035B706 /* Build configuration list for PBXProject "WooApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00195A662B4A8A550035B706;
+			productRefGroup = 00195A702B4A8A550035B706 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00195A6E2B4A8A550035B706 /* WooApp */,
+				00195A7E2B4A8A560035B706 /* WooAppTests */,
+				00195A882B4A8A560035B706 /* WooAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00195A6D2B4A8A550035B706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00195A7A2B4A8A560035B706 /* Preview Assets.xcassets in Resources */,
+				00195A772B4A8A560035B706 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00195A7D2B4A8A560035B706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00195A872B4A8A560035B706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00195A6B2B4A8A550035B706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00195A752B4A8A550035B706 /* ContentView.swift in Sources */,
+				002D49432BAC199D0069B778 /* ProductDetailView.swift in Sources */,
+				002D49412BAC158D0069B778 /* HomePageView.swift in Sources */,
+				00195A732B4A8A550035B706 /* WooAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00195A7B2B4A8A560035B706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00195A842B4A8A560035B706 /* WooAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00195A852B4A8A560035B706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00195A902B4A8A560035B706 /* WooAppUITestsLaunchTests.swift in Sources */,
+				00195A8E2B4A8A560035B706 /* WooAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00195A812B4A8A560035B706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00195A6E2B4A8A550035B706 /* WooApp */;
+			targetProxy = 00195A802B4A8A560035B706 /* PBXContainerItemProxy */;
+		};
+		00195A8B2B4A8A560035B706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00195A6E2B4A8A550035B706 /* WooApp */;
+			targetProxy = 00195A8A2B4A8A560035B706 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00195A912B4A8A560035B706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00195A922B4A8A560035B706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00195A942B4A8A560035B706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WooApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techqik.WooApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00195A952B4A8A560035B706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WooApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techqik.WooApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00195A972B4A8A560035B706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techqik.WooAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WooApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WooApp";
+			};
+			name = Debug;
+		};
+		00195A982B4A8A560035B706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techqik.WooAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WooApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WooApp";
+			};
+			name = Release;
+		};
+		00195A9A2B4A8A560035B706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techqik.WooAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WooApp;
+			};
+			name = Debug;
+		};
+		00195A9B2B4A8A560035B706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techqik.WooAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WooApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00195A6A2B4A8A550035B706 /* Build configuration list for PBXProject "WooApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00195A912B4A8A560035B706 /* Debug */,
+				00195A922B4A8A560035B706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00195A932B4A8A560035B706 /* Build configuration list for PBXNativeTarget "WooApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00195A942B4A8A560035B706 /* Debug */,
+				00195A952B4A8A560035B706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00195A962B4A8A560035B706 /* Build configuration list for PBXNativeTarget "WooAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00195A972B4A8A560035B706 /* Debug */,
+				00195A982B4A8A560035B706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00195A992B4A8A560035B706 /* Build configuration list for PBXNativeTarget "WooAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00195A9A2B4A8A560035B706 /* Debug */,
+				00195A9B2B4A8A560035B706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00195A672B4A8A550035B706 /* Project object */;
+}
